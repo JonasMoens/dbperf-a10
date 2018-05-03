@@ -1,0 +1,25 @@
+		MariaDB		SQLServer
+Query 1		3,05		7,49
+Query 2		0,64		0,50
+Query 4		12,05		7,44
+Query 5		16,81		7,58
+Query 6		10,80		3,90
+Query 7				3,89
+Query 9		1,4675		0,64
+Query 10	4,51		3,19
+Query 11	14,41		16,45
+
+Gemiddelde
+		Query1	Query2	Query4	Query5	Query6	Query7	Query9	Query10	Query11
+MariaDB		3,05	0,64	12,05	16,81	10,80	/	1,4675	4,51	14,41
+SQLServer	7,49	0,50	7,44	7,58	3,90	3,89	0,64	3,19	16,45
+
+Standaard Afwijking
+		Query1	Query2	Query4	Query5	Query6	Query7	Query9	Query10	Query11
+MariaDB		0,269	0,046	1,888	1,154	0,771	/	1,160	0,524	1,696
+SQLServer	0,789	1,666	0,643	0,199	0,158	1,876	2,863	8,545	2,163
+
+
+
+
+

@@ -1,0 +1,38 @@
+-- Staafdiagram Gemiddelde
+
+time=matrix(c(3.05,7.49,0.64,0.5,12.05,7.44,16.81,7.58,10.80,3.90,1.47,0.64,4.51,3.19,14.41,16.45),nrow = 2, ncol = 8)
+
+rownames(time)=c("MariaDB","SQLServer")
+
+colnames(time)=c("Query1","Query2","Query4","Query5","Query6","Query9","Query10","Query11")
+
+barplot(time,col=c("blue","red"),main="Gemiddelde uitvoertijd per query", font.axis=1,beside=T, legend=rownames(time), args.legend = list(x = "topleft"), xlab="Query",ylab="Gemiddelde uitvoertijd (in seconden)", ylim=c(0,20))
+
+-- Staafdiagram Standaardafwijking
+
+afwijking=matrix(c(0.269,0.046,1.888,1.154,0.771,1.160,0.524,1.696,0.789,1.666,0.643,0.199,0.158,2.863,8.545,2.163),nrow = 2, ncol = 8)
+
+rownames(afwijking)=c("MariaDB","SQLServer")
+
+colnames(afwijking)=c("Query1","Query2","Query4","Query5","Query6","Query9","Query10","Query11")
+
+barplot(afwijking,col=c("blue","red"),main="Standaard afwijking", font.axis=1,beside=T, legend=rownames(afwijking), args.legend = list(x = "topleft"), xlab="Query",ylab="Standaard afwijking (in seconden)", ylim=c(0,10))
+
+- Boxplotten:
+UitvoerQuery4SQLServer <- read_excel("C:/Users/Jonas/Documents/School/Onderzoekstechnieken/Casus/onderzoekstechnieken-casus-master/experiment/uitvoer/Real Execution Time SQLServer/UitvoerQuery4SQLServer.xlsx")
+df <- UitvoerQuery4SQLServer[,2]
+boxplot(df)
+
+UitvoerQuery10 <- read_csv("C:/Users/Jonas/Documents/School/Onderzoekstechnieken/Casus/onderzoekstechnieken-casus-master/experiment/uitvoer/Real Execution Time MariaDB/UitvoerQuery10.csv")
+boxplot(UitvoerQuery10)
+
+UitvoerQuery10SQLServer <- read_excel("C:/Users/Jonas/Documents/School/Onderzoekstechnieken/Casus/onderzoekstechnieken-casus-master/experiment/uitvoer/Real Execution Time SQLServer/UitvoerQuery10SQLServer.xlsx")
+df <- UitvoerQuery10SQLServer[,2]
+boxplot(df)
+
+UitvoerQuery11 <- read_csv("C:/Users/Jonas/Documents/School/Onderzoekstechnieken/Casus/onderzoekstechnieken-casus-master/experiment/uitvoer/Real Execution Time MariaDB/UitvoerQuery11.csv")
+boxplot(UitvoerQuery11)
+
+UitvoerQuery11SQLServer <- read_excel("C:/Users/Jonas/Documents/School/Onderzoekstechnieken/Casus/onderzoekstechnieken-casus-master/experiment/uitvoer/Real Execution Time SQLServer/UitvoerQuery11SQLServer.xlsx")
+df <- UitvoerQuery11SQLServer[,2]
+boxplot(df)
