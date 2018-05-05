@@ -52,7 +52,7 @@
 \RequirePackage[english,dutch]{babel}
 \usepackage{hyperref}                      % hyperlinks
 \hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=black,citecolor=color2,linkcolor=color2,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
-
+\graphicspath{ {images/} }
 %----------------------------------------------------------------------
 %  MARGINS
 %----------------------------------------------------------------------
@@ -205,7 +205,7 @@ justification=raggedright]{caption}
 \setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
 
 \renewcommand{\@maketitle}{%
-\twocolumn[{%
+
 \thispagestyle{empty}%
 \vskip-36pt%
 {\raggedleft\small\sffamily\bfseries\@JournalInfo\\\@Archive\par}%

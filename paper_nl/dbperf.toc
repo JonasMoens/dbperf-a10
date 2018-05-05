@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {dutch}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Inleiding}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Literatuuronderzoek}{3}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Hypothese}{3}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Methodologie}{3}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Experimenten}{4}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Statistische Toetsing}{4}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Conclusie}{5}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Referenties}{5}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Afbeeldingen}{5}{section.9}
+\contentsfinish 
